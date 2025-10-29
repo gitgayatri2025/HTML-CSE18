@@ -6,12 +6,12 @@
     <title>Hotel Room Booking Form</title>
 </head>
 <body>
-<center>
+    <center>
        <h1><u> PARADISE HOTEL</u></h1>
     
-             <form style="width: 350px; text-align: left;">
-            <fieldset style=padding: 20px;">
-                <legend><b><h3>Hotel Room Booking Form</h3></b></legend>
+    <form style="width: 400px; text-align: center;">
+    <fieldset>
+        <legend><b><h3>Hotel Room Booking Form</h3></b></legend>
         <label>Full Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
         <input type="text" name="fullname" required><br><br>
 
@@ -27,9 +27,6 @@
         <label>Check-out Date:&nbsp;&nbsp;&nbsp;&nbsp;</label>
         <input type="date" name="checkout" required><br><br>
 
-        <label>Number of Guests:</label>
-        <input type="number" name="guests" min="1" required><br><br>
-
         <label>Room Type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
         <select name="roomtype" required>
             <option value="">--Select--</option>
@@ -37,6 +34,9 @@
             <option value="double">Double</option>
             <option value="deluxe">Deluxe</option>
         </select><br><br>
+
+        <label>Number of Guests:</label>
+        <input type="number" name="guests" min="1" required><br><br>
 
         <label>Special Requests:</label><br>
         <textarea name="requests" rows="4" cols="40"></textarea><br><br>
